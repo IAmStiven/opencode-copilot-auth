@@ -1,5 +1,5 @@
 {
-  "name": "opencode-copilot-auth",
+  "name": "@iamstiven/opcdecpauth",
   "version": "0.0.12",
   "main": "./index.mjs",
   "devDependencies": {
