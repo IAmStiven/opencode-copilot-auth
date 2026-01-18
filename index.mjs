@@ -41,7 +41,7 @@ export async function CopilotAuthPlugin({ client }) {
 
   return {
     auth: {
-      provider: "github-copilot",
+      provider: "ghub-coplot",
       loader: async (getAuth, provider) => {
         let info = await getAuth();
         if (!info || info.type !== "oauth") return {};
@@ -167,7 +167,7 @@ export async function CopilotAuthPlugin({ client }) {
       methods: [
         {
           type: "oauth",
-          label: "Login with GitHub Copilot",
+          label: "Login with GitHub Copilot 2",
           prompts: [
             {
               type: "select",
